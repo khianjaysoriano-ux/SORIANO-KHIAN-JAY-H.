@@ -1,3 +1,5 @@
+## CCM-101 CLOUD COMPUTING
+
 ## Name
 SORIANO, KHIAN JAY H.
 
@@ -5,4 +7,4 @@ SORIANO, KHIAN JAY H.
 BSIT- 4F
 
 ## Description
-This repository is for my CCM-101 Prelim Act 1
+This repository is for CCM-101 Prelim Act 1
