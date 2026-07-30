@@ -1,4 +1,4 @@
-## CCM-101 CLOUD COMPUTING
+## CCM-101 Cloud Computing
 
 ## Name
 SORIANO, KHIAN JAY H.
