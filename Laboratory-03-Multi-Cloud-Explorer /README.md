@@ -12,17 +12,17 @@
 ## KillerCoda Linux Server Audit (Checkpoint 7)
 
 ### Terminal Audit Commands
-The following Linux commands were executed inside the KillerCoda terminal environment to gather system specifications:
+The following Linux commands were executed inside the KillerCoda playground environment to identify system specifications:
 
 ```bash
-# 1. Check Operating System Details
-lsb_release -a || cat /etc/os-release
+# 1. Operating System Details
+uname -a
 
-# 2. Check CPU Specifications
+# 2. CPU Information
 lscpu
 
-# 3. Check System RAM / Memory
+# 3. System Memory / RAM
 free -h
 
-# 4. Check Storage / Disk Space
+# 4. Storage & Disk Space
 df -h
