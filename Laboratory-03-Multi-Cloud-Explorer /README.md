@@ -1,39 +1,28 @@
+# Laboratory 03: Multi-Cloud Explorer
 
-# CCM-101 Cloud Computing
-
-## Student Profile
-* **Name:** SORIANO, KHIAN JAY H.
+## Student Details
+* **Student Name:** SORIANO, KHIAN JAY H.
 * **Course & Section:** BSIT - 4F
-* **Instructor:** [Instructor's Name]
-* **Repository:** [SORIANO-KHIAN-JAY-H.](https://github.com/khianjaysoriano-ux/SORIANO-KHIAN-JAY-H.)
+* **Course Title:** CCM-101 Cloud Computing
+* **Repository:** SORIANO-KHIAN-JAY-H.
+* **Date Completed:** September 4, 2026
 
 ---
 
-## Course Overview
-This repository serves as the official Cloud Computing Portfolio for **CCM-101**. It contains laboratory activities, cloud architecture assessments, platform research, and technical documentation completed throughout the course.
+## KillerCoda Linux Server Audit (Checkpoint 7)
 
----
+### Terminal Audit Commands
+The following Linux commands were executed inside the KillerCoda terminal environment to gather system specifications:
 
-## Portfolio Directory Structure
+```bash
+# 1. Check Operating System Details
+lsb_release -a || cat /etc/os-release
 
-```text
-SORIANO-KHIAN-JAY-H./
-│
-├── README.md                                  # Main Repository Index & Profile
-│
-├── Laboratory-02-Build-the-Cloud-I.../        # Prelim Lab 2 Files
-│   └── ...
-│
-└── Laboratory-03-Multi-Cloud-Explorer/        # Prelim Lab 3 Files
-    ├── README.md                              # Lab 3 Summary & Linux Audit
-    ├── aws-research.md                        # AWS Platform Analysis
-    ├── azure-research.md                      # Microsoft Azure Platform Analysis
-    ├── gcp-research.md                        # Google Cloud Platform Analysis
-    ├── cloud-platform-comparison.md           # Platform Comparison & Service Equivalence
-    ├── client-recommendations.md              # Scenario Recommendations & Decision Matrix
-    ├── reflection.md                          # Mission Reflection & Takeaways
-    └── screenshots/                           # Evidence & Terminal Outputs
-        ├── aws-console.png
-        ├── azure-console.png
-        ├── gcp-console.png
-        └── killercoda-terminal.png
+# 2. Check CPU Specifications
+lscpu
+
+# 3. Check System RAM / Memory
+free -h
+
+# 4. Check Storage / Disk Space
+df -h
